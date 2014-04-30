@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "noflo": "*",
+    "requestify": "*",
     "JQ": "*",
     "socket.io-client": "*"
   },
