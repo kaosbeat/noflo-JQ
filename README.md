@@ -1,7 +1,7 @@
-# RAMP_noflo_components
+# noflo_JQ
 
 
-NoFlo components for RAMP.
+NoFlo components for JQ.
 
 ## Components
 

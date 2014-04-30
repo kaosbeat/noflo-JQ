@@ -1,0 +1,38 @@
+{
+  "name": "noflo-JQ",
+  "description": "JQ for noflo",
+  "version": "0.0.1",
+  "keywords": [
+    "noflo", "JQ" , "json"
+  ],
+  "author": {
+    "name": "Kasper Jordaens",
+    "email": "kasper.jordaens@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kaosbeat/noflo_JQ.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "^0.10.0"
+  },
+  "dependencies": {
+    "noflo": "*",
+    "JQ": "*",
+    "socket.io-client": "*"
+  },
+  "noflo": {
+    "components": {
+      "getJSON": "./components/getJSON.js"
+    }
+  }
+}
